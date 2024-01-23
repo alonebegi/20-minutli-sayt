@@ -1,0 +1,159 @@
+/* epilogue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/epilogue-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* epilogue-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/epilogue-v17-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* epilogue-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/epilogue-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+     color: #686868;
+     font-size: 14px;
+     font-family: Epilogue;
+     font-weight: 500;
+     line-height: 16px;
+     word-wrap: break-word
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+     margin-bottom: 122px;
+    
+}
+
+.section-top{
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.top-ul-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 62px ;
+}
+
+.a-button{
+    border-radius: 14px;
+    padding: 13px 22px;
+    border: 1px solid #686868;
+    color: #686868;
+     font-size: 14px;
+     font-family: Epilogue;
+     font-weight: 500;
+     line-height: 16px;
+     word-wrap: break-word
+}
+
+.path-img{
+    margin-left: 9px;
+}
+
+.login-text{
+    margin-left: 638px;
+    margin-right: 40px;
+}
+
+
+.center-image img{
+    width: 480px;
+    height: 640px;
+}
+
+.section-center{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 130px 0px 165px;
+    margin-top: 54px;
+
+}
+ span{
+    display: flex;
+ }
+
+.text-make{
+     width: 590px;
+    margin-top: 134px;
+    color: #151515;
+     font-size: 80px;
+     font-family: Epilogue;
+     font-weight: 700;
+     line-height: 80px;
+     word-wrap: break-word;
+     margin-bottom: 48px;
+}
+
+.text-title{
+    width: 450px;
+    color: #686868;
+     font-size: 18px;
+     font-family: Epilogue;
+     font-weight: 500;
+     line-height: 28px;
+     word-wrap: break-word;
+     margin-bottom: 66px;
+}
+
+.center-button{
+    padding: 14px 26px ;
+    background-color: #151515;
+    border-radius: 15px;
+    color: #FAFAFA;
+     font-size: 18px;
+     font-family: Epilogue;
+     font-weight: 700;
+     line-height: 28px;
+     word-wrap: break-word;
+}
+
+.menu-icon ul   {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
